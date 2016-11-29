@@ -29,6 +29,7 @@ sample images(beer, resized 320*320)
 ## Requirements
 - Python(checked python 2.7.6)  
 - jupyter(checked jupyter 1.0.0)
+- tensorflow(checked tensorflow 1.12.0)
 - Matplotlib(checked matplotlib 1.5.1)  
 - Numpy(checked numpy 1.10.4)  
 - Pillow(checked Pillow 3.3.0)  
