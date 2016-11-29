@@ -21,10 +21,10 @@
 - ビール画像408枚と発泡酒と第3のビール画像251枚で構成される　　
 - 画像群はGoogle画像検索とAmazonの商品画像よりクローリング　　
 
-sample images(beer, resized 320*320)
-<img src="./img/sample/beer01.png" width="320px">
-<img src="./img/sample/beer02.png" width="320px">
-<img src="./img/sample/beer03.png" width="320px">
+sample images(beer, resized 320*320)  
+<img src="./img/sample/beer01.png" width="320px">  
+<img src="./img/sample/beer02.png" width="320px">  
+<img src="./img/sample/beer03.png" width="320px">  
 
 ## Requirements
 - Python(checked python 2.7.6)  
