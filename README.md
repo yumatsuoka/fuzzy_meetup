@@ -1,1 +1,33 @@
-# Beer Discriminator$B%S!<%k$+5?;w%S!<%k$+$r<1JL$9$k%"%W%j%1!<%7%g%s(B  2016/11/27  @$BBh(B12$B2s%U%!%8%#3XLd=N(B  ## Summary$B$*<r$r0{$^$J$/$J$C$F$$$k<c<T$,%S!<%k9%$-$JG/D9<T$K4V0c$($:3N<B$K<jEO$7$?$$$H$$$&%K!<%:$r2r7h$9$k$?$a$K!$=V;~$K%S!<%k$+$I$&$+$r<1JL$7!$;HMQ<T$KDs0F$9$k%"%W%j%1!<%7%g%s$r:n@.$9$k!%(B  $B%S!<%k$H5?;w%S!<%k(B(beer taste drinks, $BBh(B3$B$N%S!<%k$J$I(B)$B$r$=$N@5LL$N%G%6%$%s$+$i;k3PE*$K<1JL$9$k%W%m%0%i%`$r:n@.$7!$@-G=$r8!>Z$7$?!%(B  ## Members- $B0C(B  - $B>>2,(B(yumatsuoka)  - $BBg@>(B  - $BFAED(B  ## Method- Convolutional Neural Network  ## DatasetMade an original dataset.  ## Requirements- Python(checked python2.7.6)  - Matplotlib(checked python2.7.6)  - Numpy(checked )  - Pillow(checked pillow)  - pandas()  
+# Beer Discriminator
+ビールか疑似ビールかを識別するアプリケーション  
+2016/11/27  
+@第12回ファジィ学問塾    
+
+## Summary
+お酒を飲まなくなっている若者がビール好きな年長者に間違えず確実に手渡したいというニーズを解決するために，瞬時にビールかどうかを識別し使用者に提案するアプリケーションを作成する．  
+ビールと疑似ビール(beer taste drinks, 第3のビールなど)をその正面のデザインから視覚的に識別するプログラムを作成し，性能を検証した．  
+
+## Members
+- 庵  
+- 松岡(yumatsuoka)    
+- 大西  
+- 徳田  
+
+## Method
+- Convolutional Neural Network(CNN)  
+
+## Dataset
+- 32*32サイズのRGB缶ビールの正面画像　　
+- ビール画像408枚と発泡酒と第3のビール画像251枚で構成される　　
+- 画像群はGoogle画像検索とAmazonの商品画像よりクローリング　　
+
+## Requirements
+- Python(checked python 2.7.6)  
+- jupyter(checked jupyter 1.0.0)
+- Matplotlib(checked matplotlib 1.5.1)  
+- Numpy(checked numpy 1.10.4)  
+- Pillow(checked Pillow 3.3.0)  
+- pandas(checked pandas 0.18.0)  
+
+## Details
+Add some codes and files. One code which mades a csv file which has images pass and target labels and another is which classifies whether a input image is a beer one with CNN. all_imgs_dic.pkl is dumped image dataset file which is a python dictionary which has 'data' and 'target' keyes. They're correspond with the data and targets on the dataset. all_img.csv has images passes and its targets.   
