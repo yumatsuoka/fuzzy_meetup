@@ -1,1 +1,1 @@
-# fuzzy_meetup
+# Beer Discriminatorビールか疑似ビールかを識別するアプリケーション  2016/11/27  @第12回ファジィ学問塾  ## Summaryお酒を飲まなくなっている若者がビール好きな年長者に間違えず確実に手渡したいというニーズを解決するために，瞬時にビールかどうかを識別し，使用者に提案するアプリケーションを作成する．  ビールと疑似ビール(beer taste drinks, 第3のビールなど)をその正面のデザインから視覚的に識別するプログラムを作成し，性能を検証した．  ## Members- 庵  - 松岡(yumatsuoka)  - 大西  - 徳田  ## Method- Convolutional Neural Network  ## DatasetMade an original dataset.  ## Requirements- Python(checked python2.7.6)  - Matplotlib(checked python2.7.6)  - Numpy(checked )  - Pillow(checked pillow)  - pandas()  
