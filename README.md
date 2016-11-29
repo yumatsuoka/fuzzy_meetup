@@ -22,9 +22,9 @@
 - 画像群はGoogle画像検索とAmazonの商品画像よりクローリング　　
 
 sample images(beer, resized 320*320)
-<img src="./img/beer01.png" width="320px">
-<img src="./img/beer02.png" width="320px">
-<img src="./img/beer03.png" width="320px">
+<img src="./img/sample/beer01.png" width="320px">
+<img src="./img/sample/beer02.png" width="320px">
+<img src="./img/sample/beer03.png" width="320px">
 
 ## Requirements
 - Python(checked python 2.7.6)  
