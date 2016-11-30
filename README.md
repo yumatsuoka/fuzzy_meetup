@@ -36,4 +36,5 @@ sample images(beer, resized 320*320)
 - pandas(checked pandas 0.18.0)  
 
 ## Details
+(2016/11/30 追記)データセットは32*32サイズにリサイズしたものをall_imgs_dic.pklとしてdumpして置いています。元データはサンプルとして6枚ずつimg/beer, img/happoshuにおいています．
 Add some codes and files. One code which mades a csv file which has images pass and target labels and another is which classifies whether a input image is a beer one with CNN. all_imgs_dic.pkl is dumped image dataset file which is a python dictionary which has 'data' and 'target' keyes. They're correspond with the data and targets on the dataset. all_img.csv has images passes and its targets.   
