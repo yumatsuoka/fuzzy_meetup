@@ -21,9 +21,15 @@
 - ビール画像408枚と発泡酒と第3のビール画像251枚で構成される　　
 - 画像群はGoogle画像検索とAmazonの商品画像よりクローリング　　
 
+sample images(beer, resized 320*320)  
+<img src="./img/sample/beer01.png" width="160px">  
+<img src="./img/sample/beer02.png" width="160px">  
+<img src="./img/sample/beer03.png" width="160px">  
+
 ## Requirements
 - Python(checked python 2.7.6)  
 - jupyter(checked jupyter 1.0.0)
+- tensorflow(checked tensorflow 1.12.0)
 - Matplotlib(checked matplotlib 1.5.1)  
 - Numpy(checked numpy 1.10.4)  
 - Pillow(checked Pillow 3.3.0)  
